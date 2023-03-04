@@ -1,0 +1,27 @@
+
+@startuml status_states
+hide empty description
+[*] --> Found
+
+
+Gone --> Found : Scan
+
+state Found {
+    state New
+    state Reopened
+}
+
+Found --> Analyzed : Human
+
+state Analyzed {
+    state Unresolved
+    state Mitigated
+    state Accepted
+    state FalsePositive
+}
+
+Analyzed --> Found : Human
+Analyzed --> Gone : Scan
+
+
+@enduml

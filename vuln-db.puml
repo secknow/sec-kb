@@ -1,0 +1,119 @@
+@startuml asdf
+
+package Scanning {
+
+    class TargetProject {
+        target_id : str
+        name : str
+    }
+
+    class Tool {
+        tool_id : str
+        name : str
+    }
+
+    class Rule {
+        rule_id : str
+        tool_id : str
+        name : str
+        Advice : properties
+    }
+
+    Rule::tool_id -> Tool
+
+    class ScanConfiguration {
+        configuration_id : str
+        tool_id : str
+        target_id : str
+        configuration_details : url
+    }
+    ScanConfiguration::target_id -> TargetProject
+    ScanConfiguration::tool_id -> Tool
+} 
+
+package Findings {
+
+    class Scan {
+        scan_id : str
+        configuration_id : str
+        timestamp : timestamp
+    }
+
+    class ScanFinding {
+        scan_finding_id : str
+        scan_id : str
+        rule_id : str
+        Location : properties
+    }
+
+    ScanFinding::scan_id -> Scan
+    ScanFinding::rule_id -> Rule
+
+    Scan::configuration_id --> ScanConfiguration
+
+    class Finding {
+        Location : properties
+        specializes : Finding
+    }
+
+    Finding::specializes -> Finding
+}
+
+package Analysis {
+
+    class Event {
+        finding_id
+        author
+        timestamp
+    }
+
+    Event::finding_id -> Finding
+
+    Event <|-- AnalysisEvent
+    Event <|-- StatusEvent
+    Event <|-- ReferenceEvent
+    Event <|-- ScanFindingEvent
+
+    class ScanFindingEvent {
+        scan_finding_id
+    }
+    ScanFindingEvent::scan_finding_id -> ScanFinding
+
+    class AnalysisEvent {
+        comment : richtext
+    }
+
+    class StatusEvent{
+        status_code : Status
+    }
+
+    class ReferenceEvent{
+        link to jira, poam, or URL
+    }
+}
+
+package Properties {
+
+    Class properties {
+        hash
+        property
+    }
+
+    Class property {
+        properties_id : str
+        name : str
+        value_id : str
+        type
+    }
+
+    property::properties_id -> properties
+
+    class PropertyValue {
+        value_id : str
+        value : str
+    }
+
+    property::value_id -> PropertyValue
+}
+
+@enduml

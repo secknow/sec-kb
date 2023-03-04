@@ -1,0 +1,2 @@
+wheel
+peewee==3.15.4
