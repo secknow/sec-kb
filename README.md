@@ -29,7 +29,7 @@ importer is responsible for separating fields that do not change over time from
 fields that do change. This may involve extracting a static portion of a dynamic
 field (e.g. removing a hash in a URL or a session-specific nonce).
 
-## Database
+## Data Model
 
 This schema is organized to avoid updating records whie retaining history over
 time such that it is always possible to see the active findings and their
@@ -38,24 +38,34 @@ date and time. This allows for a simple and familiar user interface to display
 the finding and allow a person to change status, add comments, and add
 references or links.
 
-There is no need to close or delete a finding.
+### Deduplication
 
 Deduplication is a central feature of this schema. The tool-specific importer
 deduplicates findings, while the ingester deduplicates strings and text. The
 pattern of referencing findings, text, and strings by ID keeps redundancy
 and bloat to a minimum.
 
-![schema](schema.png)
+### Schema
 
-Note: I realize I have omitted severity here. This could
-be another event type or the analysis event could add a severity and/or CVSS
-field.
+[![schema](schema.png)](vuln-db.puml)
 
-## Status
+A `Finding` can recur over time or across targets. A `ScanFinding` is a found
+instance of a `Finding` within a `Scan`. There is no need to close or delete a
+finding.
 
-![schema](state.png)
+Instead of modifying findings, `Event` records are attached to scan findings.
+Events types include `Severity`, `Comment`, and `AttachTicket`. References to
+links other than tickets can come in from tool-provided vulnerability
+descriptions and included in comments.
 
-The ingester API would set status to Reopened, while a human could set it to New.
+### Status
+
+[![status](state.png)](vuln-status.puml)
+
+While ingesting scan data, the ingester creates `New` findings, sets status to
+`Gone` when they disappear, and sets status to `Reopened` when they reappear.
+
+Humans can set status to any of the Analyzed statuses or New.
 
 ## Triage
 
