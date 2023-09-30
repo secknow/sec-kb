@@ -27,9 +27,10 @@ package Scanning {
         target_id : str
         configuration_details : url
     }
+
     ScanConfiguration::target_id -> TargetProject
     ScanConfiguration::tool_id -> Tool
-} 
+}
 
 package Findings {
 
@@ -69,25 +70,30 @@ package Analysis {
 
     Event::finding_id -> Finding
 
-    Event <|-- AnalysisEvent
+    Event <|-- CommentEvent
     Event <|-- StatusEvent
-    Event <|-- ReferenceEvent
+    Event <|-- AttachTicketEvent
     Event <|-- ScanFindingEvent
+    Event <|-- SeverityEvent
 
     class ScanFindingEvent {
         scan_finding_id
     }
     ScanFindingEvent::scan_finding_id -> ScanFinding
 
-    class AnalysisEvent {
+    class CommentEvent {
         comment : richtext
+    }
+
+    class SeverityEvent {
+        severity : Severity
     }
 
     class StatusEvent{
         status_code : Status
     }
 
-    class ReferenceEvent{
+    class AttachTicketEvent {
         link to jira, poam, or URL
     }
 }
