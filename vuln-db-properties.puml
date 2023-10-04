@@ -1,0 +1,27 @@
+@startuml vuln-db-properties
+
+package Properties {
+
+    Class properties {
+        hash
+        property
+    }
+
+    Class property {
+        properties_id : str
+        name : str
+        value_id : str
+        type
+    }
+
+    property::properties_id -> properties
+
+    class PropertyValue {
+        value_id : str
+        value : str
+    }
+
+    property::value_id -> PropertyValue
+}
+
+@enduml

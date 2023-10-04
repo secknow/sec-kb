@@ -1,4 +1,4 @@
-@startuml asdf
+@startuml vuln-db
 
 package Scanning {
 
@@ -68,8 +68,6 @@ package Analysis {
         timestamp
     }
 
-    Event::finding_id -> Finding
-
     Event <|-- CommentEvent
     Event <|-- StatusEvent
     Event <|-- AttachTicketEvent
@@ -79,7 +77,8 @@ package Analysis {
     class ScanFindingEvent {
         scan_finding_id
     }
-    ScanFindingEvent::scan_finding_id -> ScanFinding
+
+
 
     class CommentEvent {
         comment : richtext
@@ -96,30 +95,6 @@ package Analysis {
     class AttachTicketEvent {
         link to jira, poam, or URL
     }
-}
-
-package Properties {
-
-    Class properties {
-        hash
-        property
-    }
-
-    Class property {
-        properties_id : str
-        name : str
-        value_id : str
-        type
-    }
-
-    property::properties_id -> properties
-
-    class PropertyValue {
-        value_id : str
-        value : str
-    }
-
-    property::value_id -> PropertyValue
 }
 
 @enduml

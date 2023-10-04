@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="250px" preserveAspectRatio="none" style="width:497px;height:250px;background:#FFFFFF;" version="1.1" viewBox="0 0 497 250" width="497px" zoomAndPan="magnify"><defs/><g><!--MD5=[e3a284356fa66fbef52e540b59cb9fab]
+cluster Properties--><g id="cluster_Properties"><path d="M8.5,72.56 L83.5,72.56 A3.75,3.75 0 0 1 86,75.06 L93,95.0483 L487.5,95.0483 A2.5,2.5 0 0 1 490,97.5483 L490,241.06 A2.5,2.5 0 0 1 487.5,243.56 L8.5,243.56 A2.5,2.5 0 0 1 6,241.06 L6,75.06 A2.5,2.5 0 0 1 8.5,72.56 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="93" y1="95.0483" y2="95.0483"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="74" x="10" y="88.0952">Properties</text></g><!--MD5=[aca8f3891715f1424da082e7f19547c0]
+class properties--><g id="elem_properties"><rect codeLine="4" fill="#F1F1F1" height="80.9766" id="properties" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="103" x="370.5" y="127.07"/><ellipse cx="385.5" cy="143.07" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M387.9731,149.2131 Q387.3921,149.5119 386.7529,149.6613 Q386.1138,149.8107 385.4082,149.8107 Q382.9014,149.8107 381.5815,148.1589 Q380.2617,146.507 380.2617,143.3859 Q380.2617,140.2565 381.5815,138.6047 Q382.9014,136.9528 385.4082,136.9528 Q386.1138,136.9528 386.7612,137.1022 Q387.4087,137.2516 387.9731,137.5505 L387.9731,140.2731 Q387.3423,139.6921 386.7488,139.4223 Q386.1553,139.1525 385.5244,139.1525 Q384.1797,139.1525 383.4949,140.2192 Q382.8101,141.2858 382.8101,143.3859 Q382.8101,145.4777 383.4949,146.5444 Q384.1797,147.611 385.5244,147.611 Q386.1553,147.611 386.7488,147.3412 Q387.3423,147.0715 387.9731,146.4904 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="399.5" y="148.361">properties</text><line style="stroke:#181818;stroke-width:0.5;" x1="371.5" x2="472.5" y1="159.07" y2="159.07"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="376.5" y="176.6052">hash</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="376.5" y="193.0934">property</text><line style="stroke:#181818;stroke-width:0.5;" x1="371.5" x2="472.5" y1="200.0466" y2="200.0466"/></g><!--MD5=[0766b2e74f5159a8c7d793f1f1cee8a6]
+class property--><g id="elem_property"><rect codeLine="9" fill="#F1F1F1" height="113.9531" id="property" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="133" x="30.5" y="111.56"/><ellipse cx="64.4" cy="127.56" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M66.8731,133.7031 Q66.2921,134.0019 65.6529,134.1513 Q65.0138,134.3007 64.3082,134.3007 Q61.8014,134.3007 60.4815,132.6489 Q59.1617,130.997 59.1617,127.8759 Q59.1617,124.7465 60.4815,123.0947 Q61.8014,121.4428 64.3082,121.4428 Q65.0138,121.4428 65.6612,121.5922 Q66.3087,121.7416 66.8731,122.0405 L66.8731,124.7631 Q66.2423,124.1821 65.6488,123.9123 Q65.0553,123.6425 64.4244,123.6425 Q63.0797,123.6425 62.3949,124.7092 Q61.7101,125.7758 61.7101,127.8759 Q61.7101,129.9677 62.3949,131.0344 Q63.0797,132.101 64.4244,132.101 Q65.0553,132.101 65.6488,131.8312 Q66.2423,131.5615 66.8731,130.9804 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="82.6" y="132.851">property</text><line style="stroke:#181818;stroke-width:0.5;" x1="31.5" x2="162.5" y1="143.56" y2="143.56"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="36.5" y="161.0952">properties_id : str</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="36.5" y="177.5834">name : str</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="36.5" y="194.0717">value_id : str</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="36.5" y="210.56">type</text><line style="stroke:#181818;stroke-width:0.5;" x1="31.5" x2="162.5" y1="217.5131" y2="217.5131"/></g><!--MD5=[54cef620d4a312fec929e136c0c7087b]
+class PropertyValue--><g id="elem_PropertyValue"><rect codeLine="18" fill="#F1F1F1" height="80.9766" id="PropertyValue" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="207" y="127.07"/><ellipse cx="222" cy="143.07" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M224.4731,149.2131 Q223.8921,149.5119 223.2529,149.6613 Q222.6138,149.8107 221.9082,149.8107 Q219.4014,149.8107 218.0815,148.1589 Q216.7617,146.507 216.7617,143.3859 Q216.7617,140.2565 218.0815,138.6047 Q219.4014,136.9528 221.9082,136.9528 Q222.6138,136.9528 223.2612,137.1022 Q223.9087,137.2516 224.4731,137.5505 L224.4731,140.2731 Q223.8423,139.6921 223.2488,139.4223 Q222.6553,139.1525 222.0244,139.1525 Q220.6797,139.1525 219.9949,140.2192 Q219.3101,141.2858 219.3101,143.3859 Q219.3101,145.4777 219.9949,146.5444 Q220.6797,147.611 222.0244,147.611 Q222.6553,147.611 223.2488,147.3412 Q223.8423,147.0715 224.4731,146.4904 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="236" y="148.361">PropertyValue</text><line style="stroke:#181818;stroke-width:0.5;" x1="208" x2="334" y1="159.07" y2="159.07"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="213" y="176.6052">value_id : str</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="213" y="193.0934">value : str</text><line style="stroke:#181818;stroke-width:0.5;" x1="208" x2="334" y1="200.0466" y2="200.0466"/></g><!--MD5=[84a9f26f7231919947c0a7f8b78a0e93]
+link property to properties--><g id="link_property_properties"><path codeLine="16" d="M165,155.56 C206.83,155.56 172.98,103.2 189,64.56 C194.91,50.3 193.11,42.25 206.5,34.56 C256.22,6 285.11,7.22 335.5,34.56 C369.12,52.8 391.72,90.38 405.36,120.96 " fill="none" id="property-to-properties" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="407.2,125.19,407.2943,115.3416,405.2132,120.6017,399.9531,118.5205,407.2,125.19" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8692a79ae09ef158891ceb2700ef1276]
+link property to PropertyValue--><g id="link_property_PropertyValue"><path codeLine="23" d="M165,187.56 C176.43,191.65 188.44,193.6 200.08,193.96 " fill="none" id="property-to-PropertyValue" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="205,193.99,196.023,189.9386,200.0001,193.9614,195.9773,197.9385,205,193.99" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[981b137fed8946c0af901fbbaf6c304a]
+@startuml vuln-db-properties
+
+package Properties {
+
+    Class properties {
+        hash
+        property
+    }
+
+    Class property {
+        properties_id : str
+        name : str
+        value_id : str
+        type
+    }
+
+    property::properties_id -> properties
+
+    class PropertyValue {
+        value_id : str
+        value : str
+    }
+
+    property::value_id -> PropertyValue
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

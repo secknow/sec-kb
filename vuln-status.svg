@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="486px" preserveAspectRatio="none" style="width:475px;height:486px;background:#FFFFFF;" version="1.1" viewBox="0 0 475 486" width="475px" zoomAndPan="magnify"><defs/><g><!--MD5=[06a9917dd8d5e098d29e4dbb049dee0d]
+cluster Inbox--><g id="cluster_Inbox"><path d="M241,97 L446,97 A12.5,12.5 0 0 1 458.5,109.5 L458.5,123.4883 L228.5,123.4883 L228.5,109.5 A12.5,12.5 0 0 1 241,97 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="107" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="230" x="228.5" y="97"/><line style="stroke:#181818;stroke-width:0.5;" x1="228.5" x2="458.5" y1="123.4883" y2="123.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="323.5" y="114.5352">Inbox</text></g><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="271.5" y="140"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="282" y="165.291">New</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="79" x="356" y="140"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="361" y="165.291">Reopened</text><ellipse cx="236.5" cy="16" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="50" x="321.5" y="440.49"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="328.5" y="465.781">Gone</text><path d="M19.5,275 L399.5,275 A12.5,12.5 0 0 1 412,287.5 L412,301.4883 L7,301.4883 L7,287.5 A12.5,12.5 0 0 1 19.5,275 " fill="#F1F1F1" style="stroke:#F1F1F1;stroke-width:1.0;"/><rect fill="none" height="88.4883" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="405" x="7" y="275"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="412" y1="301.4883" y2="301.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="178" y="293.5352">Analyzed</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="19" y="313.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="24" y="338.7793">Unresolved</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="123.5" y="313.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="128.5" y="338.7793">Mitigated</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="73" x="216" y="313.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="221" y="338.7793">Accepted</text><rect fill="#F1F1F1" height="40" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="97" x="307" y="313.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="312" y="338.7793">FalsePositive</text><!--MD5=[136e42023e38f2b0acbd8fb23b87cb4a]
+link *start to Inbox--><g id="link_*start_Inbox"><path d="M236.5,26.32 C236.5,34.095 236.5,46.0788 236.5,59.7289 C236.5,66.554 236.5,73.7957 236.5,81.1362 C236.5,84.8064 236.5,88.5013 236.5,92.1813 C236.5,93.1012 236.5,94.0203 236.5,94.9378 C236.5,95.3965 236.5,95.8549 236.5,96.3127 C236.5,96.5417 236.5,96.7705 236.5,96.9992 " fill="none" id="*start-to-Inbox" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="236.5,96.9992,240.5,87.9992,236.5,91.9992,232.5,87.9992,236.5,96.9992" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="237.5" y="69.5684">Scan</text></g><!--MD5=[365baa175c743f3179699e054cb1e40d]
+link Inbox to Analyzed--><g id="link_Inbox_Analyzed"><path d="M228.3768,174.5459 C228.2858,174.7081 228.1944,174.8715 228.1025,175.0359 C226.6328,177.6677 225.0519,180.5925 223.43,183.7425 C216.9425,196.3425 209.8,212.545 206.5,228 C203.74,240.91 203.12,255.1 203.53,268.32 " fill="none" id="Inbox-to-Analyzed" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="203.75,273.21,207.361,264.047,203.5359,268.2146,199.3683,264.3895,203.75,273.21" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="207.5" y="241.5684">Human</text></g><!--MD5=[59048cf2001bc4599800a8980bfd655a]
+reverse link New to Analyzed--><g id="link_New_Analyzed"><path d="M285.87,186.37 C278.51,203.29 268.15,225.85 257.5,245 C252.03,254.83 245.72,265.1 239.5,274.73 " fill="none" id="New-backto-Analyzed" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="287.85,181.8,280.6031,188.4695,285.8632,186.3883,287.9443,191.6484,287.85,181.8" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="45" x="266.5" y="241.5684">Human</text></g><!--MD5=[c6f5769ab5c18dfd9fd91cd575197e11]
+link Analyzed to Gone--><g id="link_Analyzed_Gone"><path d="M252.47,363.92 C275.82,387.65 303.78,416.07 323.11,435.72 " fill="none" id="Analyzed-to-Gone" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="326.28,438.94,322.819,429.7193,322.7732,435.376,317.1165,435.3302,326.28,438.94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="298.5" y="407.0584">Scan</text></g><!--MD5=[3546e4b2bf67e9db1a2e3f250afd1446]
+reverse link Reopened to Gone--><g id="link_Reopened_Gone"><path d="M407.63,185.79 C424.97,224.75 452.32,302.2 429.5,363.49 C417.89,394.67 391.1,422.47 371.08,440.02 " fill="none" id="Reopened-backto-Gone" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="405.78,181.71,405.8371,191.5587,407.8372,186.2672,413.1287,188.2672,405.78,181.71" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="29" x="438.5" y="324.3184">Scan</text></g><!--MD5=[cc1e2d68394ba80285e9c190e259691a]
+@startuml vuln-status
+hide empty description
+
+
+state Inbox {
+    state New
+    state Reopened
+}
+[*] -d-> Inbox : Scan
+
+state Analyzed {
+    state Unresolved
+    state Mitigated
+    state Accepted
+    state FalsePositive
+}
+
+Inbox -d-> Analyzed : Human
+
+Analyzed -u-> New : Human
+Analyzed -d-> Gone : Scan
+Gone -u-> Reopened : Scan
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

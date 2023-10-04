@@ -1,5 +1,5 @@
 
-@startuml status_states
+@startuml vuln-status
 hide empty description
 
 

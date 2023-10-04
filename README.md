@@ -47,7 +47,7 @@ and bloat to a minimum.
 
 ### Schema
 
-[![schema](schema.png)](vuln-db.puml)
+[![schema](vuln-db.svg)](vuln-db.puml)
 
 A `Finding` can recur over time or across targets. A `ScanFinding` is a found
 instance of a `Finding` within a `Scan`. There is no need to close or delete a
@@ -60,12 +60,18 @@ descriptions and included in comments.
 
 ### Status
 
-[![status](state.png)](vuln-status.puml)
+[![status](vuln-status.svg)](vuln-status.puml)
 
 While ingesting scan data, the ingester creates `New` findings, sets status to
 `Gone` when they disappear, and sets status to `Reopened` when they reappear.
 
 Humans can set status to any of the Analyzed statuses or New.
+
+### Properties
+
+More deduplication results from properties stored like this:
+
+[![properties](vuln-db-properties.svg)](vuln-db-properties.puml)
 
 ## Triage
 
