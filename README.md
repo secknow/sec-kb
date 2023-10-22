@@ -85,3 +85,8 @@ A report would include deduplicated findings and the latest analysis comment,
 status, and severity at any specified date and time. The tool rule details such
 as remediation advice and references could be included in a detailed report and
 omitted in a summary report.
+
+
+[vm diagram](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=https%3A%2F%2Fapp.diagrams.net%2F%23HSecKnow%252Fsec-kb%252Fmain%252Fvulnerability-management.drawio&layers=1&nav=1&title=vulnerability-management.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fsecknow%2Fsec-kb%2Fmain%2Fvulnerability-management.drawio)
+
+[![vm diagram](vuln-db-properties.drawio.svg)](vuln-db-properties.drawio)
